@@ -28,8 +28,10 @@ jobs:
         cache: maven
         
     - name: Build Application JAR
-      working-directory:  /home/runner/work/rest-with-spring-boot-and-java-erudio/CursoRestfull
-      run: mvn clean package
+      working-directory:  ./CursoRestfull
+      run: |
+        - pwd
+        - mvn clean package
 
     - name: Docker Compose Build
       working-directory: ./rest-with-springboot-and-java-erudio
