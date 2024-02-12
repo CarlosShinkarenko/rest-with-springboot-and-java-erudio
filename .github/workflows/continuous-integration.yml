@@ -32,7 +32,7 @@ jobs:
       run: mvn clean package
 
     - name: Docker Compose Build
-      working-directory: ./rest-with-springboot-and-java-erudio
+      working-directory: /home/runner/work/rest-with-springboot-and-java-erudio/rest-with-springboot-and-java-erudio
       run: docker compose build
 
     - name: push to Docker Hub Container Registry
