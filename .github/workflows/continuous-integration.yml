@@ -28,7 +28,7 @@ jobs:
         cache: maven
         
     - name: Build Application JAR
-      working-directory:  /home/runner/work/_temp/3c194c50-be5b-474c-8f87-1f1569be6adf/CursoRestfull
+      working-directory:  /home/runner/work/rest-with-springboot-and-java-erudio/rest-with-springboot-and-java-erudio/CursoRestfull
       run: |
         - mvn clean package
 
