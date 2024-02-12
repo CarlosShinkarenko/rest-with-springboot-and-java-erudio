@@ -30,6 +30,7 @@ jobs:
     - name: Build Application JAR
       working-directory:  /home/runner/work/_temp/rest-with-springboot-and-java-erudio/CursoRestfull
       run: |
+        - pwd
         - mvn clean package
 
     - name: Docker Compose Build
