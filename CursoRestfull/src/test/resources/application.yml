@@ -3,7 +3,7 @@ cors:
 server:
   port: 8888
 file:
-  upload-dir: /Users/Carlos/Documents/Cursos/CursoRest/EmAula/UploadDir
+  upload-dir: /home/runner/work/rest-with-springboot-and-java-erudio/UploadDir
 security:
   jwt:
     token:
