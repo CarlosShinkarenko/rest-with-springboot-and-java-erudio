@@ -28,7 +28,7 @@ jobs:
         cache: maven
         
     - name: Build Application JAR
-      working-directory:  ./CursoRestfull
+      working-directory:  ./home/runner/work/_temp/3c194c50-be5b-474c-8f87-1f1569be6adf/CursoRestfull
       run: |
         - pwd
         - mvn clean package
